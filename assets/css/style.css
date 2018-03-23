@@ -19,9 +19,15 @@ body, html {
     }
 }
 
+
+
+.wide {letter-spacing: 10px;}
+.hover-opacity {cursor: pointer;
+    
+}
 /*----------------------------------------------------*/
 .bg-color-navbar {
-    background-color:black;
+    background-color:transparent;
     
 }
 
