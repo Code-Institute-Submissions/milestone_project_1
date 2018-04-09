@@ -7,6 +7,8 @@ body, html {
     line-height: 1.8;
 }
 
+
+
 @media (max-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
@@ -55,15 +57,21 @@ body, html {
       padding-top: 70px;
   }
 
+.body {
+      position: relative; 
+}
 
 
+
+
+ 
 /*--------------------------------------------------Colors*/
 
 
 /* Navbar */
 
 .navbar {
-    margin-bottom: 0;
+    margin-bottom: 0px;
     position: absolute;
     top: 0;
     left: 0;
@@ -73,19 +81,19 @@ body, html {
     border: 0;
 }
 
-.navbar-default .navbar-collapse {
+.navbar-collapse {
     border-color: transparent;
 }
 
-.navbar-default .navbar-toggle {
+.navbar-toggle {
     border: 0;
 }
 
-.navbar-default .navbar-toggle:hover {
+.navbar-toggle:hover {
     background-color:  transparent;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-toggle .icon-bar {
     background-color: white;
     
 }
@@ -99,35 +107,50 @@ body, html {
     color: white;
 }
 
-.navbar-default .navbar-nav a {
+.navbar-nav a {
     font-weight: bold;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
+.navbar-nav>.active>a,
+.navbar-nav>.active>a:focus,
+.navbar-nav>.active>a:hover {
     color: white;
     background: transparent;
 }
 
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-nav>li>a:focus,
+.navbar-nav>li>a:hover {
     color: white;
 }
 
-.navbar-btn {
-    border: 0;
-    border-radius: 16px;
-    width: 100px;
-    background-color: white;
-    color: white;
+
+.carousel-inner{
+    height: 50%;
 }
 
-.navbar-btn:hover {
-    background-color: white;
-    border-color: #df4929;
-    color: white;
+.item {
+    min-height:80px;
+    width:  100% !important;
+    border: 1px solid red;
 }
+
+
+
+
+
+
+ 
+.responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+
+    
+}
+
+
 
 /*-----------------------------------------------------*/
 .display-middle {
@@ -139,9 +162,25 @@ body, html {
     
 }
 
+.h2carousel {
+    font-weight: bold;
+    color: orange;
+}
+
+.h3carousel {
+    font-weight: bold;
+    color: black;
+}
+
+.pcarousel {
+    font-weight: bold;
+    color: black;
+}
+
+
 .xlarge {
     font-size:24px!important
-    
+ 
 }
 .xxlarge {font-size:36px!important
     
@@ -302,12 +341,6 @@ body, html {
     
 }
 
-.section,.code {
-    margin-top:16px!important;
-    margin-bottom:16px!important
-    
-}
-
 .row-padding,.row-padding>.half,.row-padding>.third,.row-padding>.twothird,.row-padding>.threequarter,.row-padding>.quarter,.row-padding>.col {
     padding:0 8px
     
@@ -391,6 +424,6 @@ body, html {
 /* Second image (Portfolio) */
 .bgimg-2 {
     background-image: url('/assets/images/snow-outside2.jpg');
-    min-height: 400px !important;
+    min-height: 480px !important;
     
 }
