@@ -153,30 +153,6 @@ body, html {
 
 
 /*-----------------------------------------------------*/
-.display-middle {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    -ms-transform:translate(-50%,-50%)
-    
-}
-
-.h2carousel {
-    font-weight: bold;
-    color: orange;
-}
-
-.h3carousel {
-    font-weight: bold;
-    color: black;
-}
-
-.pcarousel {
-    font-weight: bold;
-    color: black;
-}
-
 
 .xlarge {
     font-size:24px!important
@@ -311,27 +287,6 @@ body, html {
     
 }   
 
-.dropdown-hover.mobile .dropdown-content,.dropdown-click.mobile .dropdown-content {
-    position:relative
-    
-}	
-.hide-small {
-    display:none!important
-    
-}
-.mobile {
-    display:block;width:100%!important
-    
-}
-.bar-item.mobile,.dropdown-hover.mobile,.dropdown-click.mobile {
-    text-align:center
-    
-}
-.dropdown-hover.mobile,.dropdown-hover.mobile .btn,.dropdown-hover.mobile .button,.dropdown-click.mobile,.dropdown-click.mobile .btn,.dropdown-click.mobile .button {
-    width:100%
-    
-}
-
 .input {
     padding:8px;
     display:block;
@@ -399,7 +354,7 @@ body, html {
 
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2 {
+.bgimg-2 {
     
     -webkit-background-size: 100% 100% !important;
     -moz-background-size: 100% 100% !important;
@@ -412,13 +367,6 @@ body, html {
 }
 
 /*-----------------------------------------Container--*/
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-    background-image: url('/assets/images/stage.jpg');
-    min-height: 70% !important;
-}
-
 
 
 /* Second image (Portfolio) */
